@@ -1,4 +1,8 @@
+packadd YouCompleteMe
+" Turn off annyoing preview window
+set completeopt-=preview
 
+" Indentatio
 set smartindent
 " show existing tab with 4 spaces widt
 set tabstop=2
@@ -54,8 +58,10 @@ set number
 " jump up or down to a particular line, by {count}k to go up or {count}j to go
 " down.
 set relativenumber
+nnoremap m n
+nnoremap M N
 "remap movement for neo2
-nmap n h
+nnoremap n h
 nmap , j
 nmap r k
 nmap t l
